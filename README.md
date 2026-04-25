@@ -1,7 +1,6 @@
 # Ex.No: 1 B                    CONVERSION OF NON STATIONARY TO STATIONARY DATA
 ## NAME:ABINAYA A
 ## REG NO:212224230004
-
 ## AIM:
 To perform regular differncing,seasonal adjustment and log transformatio on Gold Price Prediction.
 
@@ -19,7 +18,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-
 ### Loading the dataset:
 ```
 data=pd.read_csv('Gold Price Prediction.csv')
@@ -73,21 +71,15 @@ plt.tight_layout()
 plt.show()
 
 ```
-
 ## OUTPUT:
 ### rading Volume Over Time:
 <img width="869" height="275" alt="image" src="https://github.com/user-attachments/assets/838594ad-122b-4c4f-af0b-3f6851e55131" />
-
-
 
 ### Twenty Moving Average vs. Fifty Moving Average
 <img width="873" height="252" alt="image" src="https://github.com/user-attachments/assets/6ac0cb19-2d9e-4838-a890-76dc6b02daed" />
 
 ### Gold Price Today
-
-
 <img width="892" height="295" alt="image" src="https://github.com/user-attachments/assets/853ccea0-5f7d-4dd2-9bb3-ae64912d7ad9" />
-
 
 ### RESULT:
 Thus we have created the python code for the conversion of non stationary to stationary data on Gold Price Prediction
